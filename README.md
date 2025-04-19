@@ -2,7 +2,7 @@
 
 A modern, responsive image gallery built with HTML, CSS, and JavaScript.
 
-## Features (خصوصیات)
+## Features
 - **Fully responsive** design
 - **Lightbox functionality** for enlarged viewing
 - **Image search** capability
@@ -10,7 +10,7 @@ A modern, responsive image gallery built with HTML, CSS, and JavaScript.
 - **Keyboard navigation** support
 - **Load more** button for lazy loading
 
-## Technologies Used (استعمال شدہ ٹیکنالوجیز)
+## Technologies Used
 - HTML5
 - CSS3 (Flexbox, Grid)
 - JavaScript (ES6)
