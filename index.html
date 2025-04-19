@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Image Gallery</title>
+    <link rel="stylesheet" href="/Image Gallery/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1 class="gallery-title">Photo Gallery</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search images...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+        
+        <div class="gallery-grid" id="gallery-grid">
+            
+        </div>
+        
+        <div class="lightbox" id="lightbox">
+            <div class="lightbox-content">
+                <span class="close-btn" id="close-btn">&times;</span>
+                <img class="lightbox-img" id="lightbox-img" src="" alt="">
+                <div class="image-info" id="image-info"></div>
+                <div class="navigation">
+                    <button class="nav-btn prev-btn" id="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="nav-btn next-btn" id="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="load-more-container">
+            <button class="load-more-btn" id="load-more-btn">Load More</button>
+        </div>
+    </div>
+    
+    <script src="/Image Gallery/script.js"></script>
+</body>
+</html>
